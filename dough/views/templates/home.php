@@ -2,6 +2,10 @@
 /** @var string $title */
 /** @var string $content */
 /** @var array $buttonGroup */
+
+if(!$buttonGroup){
+    $buttonGroup = null;
+}
 ?>
 
 <div class="home">
